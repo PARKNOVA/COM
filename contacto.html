@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parknova - Contáctanos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-parknova.png" alt="Parknova Logo">
+                <h1>Parknova</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="reservas.html">Reservas</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header contact-header">
+            <div class="container">
+                <h2>Estamos Aquí para Ayudarte</h2>
+                <p>No dudes en contactarnos para cualquier consulta, sugerencia o para obtener más información sobre Parknova.</p>
+            </div>
+        </section>
+
+        <section class="contact-methods">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Nuestra Ubicación</h3>
+                        <p>[Tu Dirección del Parque, Barrio/Urbanización], Azángaro, Puno, Perú</p>
+                        <p><a href="https://maps.google.com/?q=-14.93225,-70.19647
+                        " target="_blank">Ver en Google Maps</a></p> </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Llámanos</h3>
+                        <p>Atención al cliente:</p>
+                        <p>+51 [928939299]</p>
+                        <p>Horario: Lunes a Viernes, [8 AM] - [8 PM] (Hora de Perú)</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Envíanos un Correo</h3>
+                        <p>Consultas generales: info@parknova.com</p>
+                        <p>Reservas y eventos: reservas@parknova.com</p>
+                        <p>Soporte técnico: soporte@parknova.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horario de Atención del Parque</h3>
+                        <p>Martes a Domingo: [8AM] - [11 PM]</p>
+                        <p>Lunes: Cerrado por Mantenimiento</p>
+                        <p>Consulta nuestro calendario para eventos especiales y feriados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-container">
+                    <h3>Envíanos un Mensaje Directo</h3>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="contactName">Nombre Completo:</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Correo Electrónico:</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Asunto:</label>
+                            <input type="text" id="contactSubject" name="contactSubject">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Tu Mensaje:</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="button primary">Enviar Mensaje</button>
+                    </form>
+                    <div id="contactFormMessage" class="form-message"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Parknova</h3>
+                    <p>Innovación, diversión y paz en un solo lugar. Un proyecto dedicado para todas las personas</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h3>Contáctanos</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> [Dirección del Parque, Azángaro, Puno]</p>
+                    <p><i class="fas fa-phone"></i> +51 [Tu Número de Teléfono]</p>
+                    <p><i class="fas fa-envelope"></i> info@parknova.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Síguenos</h3>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Parknova - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
