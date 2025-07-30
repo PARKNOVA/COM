@@ -1,2 +1,0 @@
-# COM
-Para todo publico
